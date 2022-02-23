@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(29, 35, 83);
+  color: azure;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  color: rgb(29, 35, 83);
+}
+.score {
+  padding: 10px;
+  font-size: 32px;
+  margin: 20px auto;
+  border: 3px solid salmon;
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 900;
+  position: relative;
+}
+.badge {
+  background-color: salmon;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  color: rgb(29, 35, 83);
+  border-radius: 20%;
+}
+#user-label {
+  position: absolute;
+  top: 15px;
+  left: -25px;
+}
+#compu-label {
+  position: absolute;
+  top: 15px;
+  right: -25px;
+}
+
+.result > p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  color: coral;
+  text-shadow: crimson;
+  text-shadow: 5px 4px 4px black;
+}
+.options {
+  text-align: center;
+  margin-top: 50px;
+}
+.opcion {
+  display: inline-block;
+  border: 4px solid salmon;
+  margin-left: 25px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+
+.opcion:hover {
+  cursor: pointer;
+  background: turquoise;
+}
